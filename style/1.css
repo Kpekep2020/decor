@@ -34,12 +34,12 @@ header li a {
     text-decoration: none;
    }
 /* section info*/
-.info{
+.main{
     background-image: url(../images/1.jpg);
     background-size: cover;
     height: 100vh;
    }
-.info .container{
+.main .container{
     max-width: 1113px;
     margin: auto;
 }
@@ -56,7 +56,7 @@ H1{
     padding-bottom: 30px;
 }
 
-.info article {
+.main article {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     display: flex;
@@ -65,7 +65,7 @@ H1{
     margin-bottom: 100px;
 }
 
-section article p{
+.main article p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -74,12 +74,11 @@ section article p{
     color: #000000;
 
 }
-.info a {
+.main a {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0;
     gap: 10px;
     width: 255px;
     height: 70px;
@@ -93,6 +92,9 @@ section article p{
     line-height: 150%;
     color: #FFFFFF;
     text-decoration: none;
+}
+.main img{
+    padding-right: 30px;
 }
 /*section about us*/
 .about_us .container{
