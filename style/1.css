@@ -58,6 +58,7 @@ H1{
 .info article {
     background: rgba(255, 255, 255, 0.9);
     opacity: 0.9;
+
     border-radius: 20px;
     display: flex;
     max-width: 512px;
