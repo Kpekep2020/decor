@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-
+/* headder*/
 header{
     background-color: #959292;
 }
@@ -33,6 +33,7 @@ header li a {
     color: #FFFFFF;
     text-decoration: none;
    }
+/* section info*/
 .info{
     background-image: url(/images/1.jpg);
     background-size: cover;
@@ -57,16 +58,13 @@ H1{
 
 .info article {
     background: rgba(255, 255, 255, 0.9);
-    opacity: 0.9;
     border-radius: 20px;
     display: flex;
     max-width: 512px;
     padding: 36px 33px;
     margin-bottom: 100px;
 }
-section article img{
-    margin-right: 33px;
-}
+
 section article p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
